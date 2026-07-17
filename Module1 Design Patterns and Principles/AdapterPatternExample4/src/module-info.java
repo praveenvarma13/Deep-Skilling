@@ -1,0 +1,2 @@
+module AdapterPatternExample4 {
+}

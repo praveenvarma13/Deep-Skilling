@@ -1,0 +1,2 @@
+module StrategyPatternExample8 {
+}

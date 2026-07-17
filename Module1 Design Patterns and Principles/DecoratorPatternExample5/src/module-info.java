@@ -1,0 +1,2 @@
+module DecoratorPatternExample5 {
+}

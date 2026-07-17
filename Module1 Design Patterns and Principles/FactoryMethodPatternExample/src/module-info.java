@@ -1,0 +1,2 @@
+module FactoryMethodPatternExample {
+}
