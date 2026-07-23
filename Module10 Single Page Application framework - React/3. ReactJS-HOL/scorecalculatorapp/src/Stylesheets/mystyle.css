@@ -1,0 +1,27 @@
+.formatstyle {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.details p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.average {
+  color: #2b7a78 !important;
+  font-size: 18px !important;
+}
