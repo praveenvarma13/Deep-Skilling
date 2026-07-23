@@ -1,0 +1,111 @@
+body {
+  background-color: #f0f4f8;
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #334155;
+}
+
+.app-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.auth-header {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.auth-title {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.btn-auth {
+  padding: 10px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-login {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-logout {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: #dc2626;
+}
+
+.flights-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.flight-card {
+  background: white;
+  border-left: 6px solid #3b82f6;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+
+.flight-info h3 {
+  margin: 0 0 6px 0;
+  color: #0f172a;
+}
+
+.flight-info p {
+  margin: 0;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+.btn-book {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-book:hover {
+  background-color: #059669;
+}
+
+.badge-guest {
+  background-color: #f1f5f9;
+  color: #64748b;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
