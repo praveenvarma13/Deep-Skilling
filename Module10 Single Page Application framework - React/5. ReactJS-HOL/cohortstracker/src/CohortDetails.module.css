@@ -1,0 +1,21 @@
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px 10px 20px; /* Top Right Bottom Left */
+  border: 1px solid black;
+  border-radius: 10px;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* Tag selector styling for description terms <dt> */
+dt {
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+dd {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
