@@ -1,0 +1,25 @@
+import React from 'react';
+import Cart from './Cart';
+
+export class OnlineShopping extends React.Component {
+  render() {
+    const CartInfo = [
+      { itemname: "Laptop", price: 80000 },
+      { itemname: "TV", price: 120000 },
+      { itemname: "Washing Machine", price: 50000 },
+      { itemname: "Mobile", price: 30000 },
+      { itemname: "Fridge", price: 70000 }
+    ];
+
+    return (
+      <div className="mydiv" style={{ textAlign: 'center', marginTop: '50px', fontFamily: 'sans-serif' }}>
+        <h1 style={{ color: 'green', marginBottom: '25px', fontSize: '36px', fontWeight: 'bold' }}>
+          Items Ordered :
+        </h1>
+        <Cart item={CartInfo} />
+      </div>
+    );
+  }
+}
+
+export default OnlineShopping;
