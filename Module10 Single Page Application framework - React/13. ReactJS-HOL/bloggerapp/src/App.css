@@ -1,0 +1,129 @@
+body {
+  background-color: #f8fafc;
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: #334155;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.dashboard-subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+/* Control bar for viewing combinations */
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  border: 1px solid #e2e8f0;
+  background: white;
+  color: #475569;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.filter-btn.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+/* 3-Column Dashboard Layout */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.column-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  border-top: 5px solid #cbd5e1;
+  transition: transform 0.2s ease;
+}
+
+.column-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Border styles matching section colors */
+.mystyle1 { border-top-color: #3b82f6; } /* Course Section Blue */
+.st2 { border-top-color: #10b981; }      /* Book Section Green */
+.v1 { border-top-color: #f59e0b; }       /* Blog Section Amber */
+
+.column-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f1f5f9;
+}
+
+.mystyle1 .column-header { color: #1d4ed8; }
+.st2 .column-header { color: #047857; }
+.v1 .column-header { color: #b45309; }
+
+/* Dynamic List Items Rendering */
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-node {
+  padding: 14px;
+  background: #f8fafc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #edf2f7;
+}
+
+.item-node h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+.item-node h4 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.item-node p {
+  margin: 4px 0 0 0;
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.4;
+}
